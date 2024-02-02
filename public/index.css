@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    background:#191d28;
+    color:white;
+    display: inherit;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    /* padding: 5%; */
+}
+
+.h1{
+    font-size: xx-large;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+/* div{
+    display: flex;
+    flex-direction: column;
+} */
+
+.subhead{
+    display: flex !important;
+    justify-content: center;
+    gap: 10px;
+}
+
+.curr{
+    width: 100%;
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    font-size: medium;
+    margin-top: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.avg{
+    font-size: xx-small ;
+}
+
+table{
+    font-size: smaller;
+    margin-top: 8%;
+    max-width: 100%;
+}
+
+tr > * + * {
+    padding-left: 2em;
+}
+
+h2{
+    font-size: x-large;
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span p{
+    font-size: smaller;
+}
+
+select{
+    width: 20%;
+}
+
+option{
+    width: 50%;
+}
+
+@media (max-width: 760px) {
+    .head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    table{
+        font-size: larger;
+        margin-top: 8%;
+        max-width: 100%;
+    }
+}
